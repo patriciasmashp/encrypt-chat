@@ -1,0 +1,906 @@
+19:49:45 - __main__:connect_handler:60 - ('127.0.0.1', 52612) - Успешное подключение к чату!
+20:06:56 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001FBA97B0790>
+    └ <Thread(Thread-2 (message_handler), started 23216)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001FBA97B04C0>
+    └ <Thread(Thread-2 (message_handler), started 23216)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-2 (message_handler), started 23216)>
+    │    │        │    └ (<socket.socket fd=724, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-2 (message_handler), started 23216)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001FBAD4DE7D0>>
+    └ <Thread(Thread-2 (message_handler), started 23216)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=724, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:06:56 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:07:14 - __main__:connect_handler:60 - ('127.0.0.1', 53792) - Успешное подключение к чату!
+20:13:15 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001FBA97B0790>
+    └ <Thread(Thread-3 (message_handler), started 23592)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001FBA97B04C0>
+    └ <Thread(Thread-3 (message_handler), started 23592)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-3 (message_handler), started 23592)>
+    │    │        │    └ (<socket.socket fd=716, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-3 (message_handler), started 23592)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001FBAD4DE7D0>>
+    └ <Thread(Thread-3 (message_handler), started 23592)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=716, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:13:15 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:13:25 - __main__:connect_handler:60 - ('127.0.0.1', 54048) - Успешное подключение к чату!
+20:13:43 - __main__:connect_handler:60 - ('127.0.0.1', 54059) - Успешное подключение к чату!
+20:15:25 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001FBA97B0790>
+    └ <Thread(Thread-4 (message_handler), started 8904)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001FBA97B04C0>
+    └ <Thread(Thread-4 (message_handler), started 8904)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-4 (message_handler), started 8904)>
+    │    │        │    └ (<socket.socket fd=848, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-4 (message_handler), started 8904)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001FBAD4DE7D0>>
+    └ <Thread(Thread-4 (message_handler), started 8904)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=848, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:15:25 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:15:27 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001FBA97B0790>
+    └ <Thread(Thread-5 (message_handler), started 12484)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001FBA97B04C0>
+    └ <Thread(Thread-5 (message_handler), started 12484)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-5 (message_handler), started 12484)>
+    │    │        │    └ (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-5 (message_handler), started 12484)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001FBAD4DE7D0>>
+    └ <Thread(Thread-5 (message_handler), started 12484)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:15:27 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:15:37 - __main__:connect_handler:60 - ('127.0.0.1', 54154) - Успешное подключение к чату!
+20:16:03 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001FBA97B0790>
+    └ <Thread(Thread-6 (message_handler), started 25072)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001FBA97B04C0>
+    └ <Thread(Thread-6 (message_handler), started 25072)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-6 (message_handler), started 25072)>
+    │    │        │    └ (<socket.socket fd=876, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-6 (message_handler), started 25072)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001FBAD4DE7D0>>
+    └ <Thread(Thread-6 (message_handler), started 25072)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=876, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:16:03 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:17:09 - __main__:connect_handler:60 - ('127.0.0.1', 54199) - Успешное подключение к чату!
+20:18:07 - __main__:connect_handler:60 - ('127.0.0.1', 54244) - Успешное подключение к чату!
+20:18:15 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001FBA97B0790>
+    └ <Thread(Thread-8 (message_handler), started 10616)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001FBA97B04C0>
+    └ <Thread(Thread-8 (message_handler), started 10616)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-8 (message_handler), started 10616)>
+    │    │        │    └ (<socket.socket fd=800, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-8 (message_handler), started 10616)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001FBAD4DE7D0>>
+    └ <Thread(Thread-8 (message_handler), started 10616)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=800, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:18:15 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:18:38 - __main__:connect_handler:60 - ('127.0.0.1', 54270) - Успешное подключение к чату!
+20:20:06 - __main__:connect_handler:60 - ('127.0.0.1', 54330) - Успешное подключение к чату!
+20:20:39 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-2 (message_handler), started 23324)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-2 (message_handler), started 23324)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-2 (message_handler), started 23324)>
+    │    │        │    └ (<socket.socket fd=948, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-2 (message_handler), started 23324)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-2 (message_handler), started 23324)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=948, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:20:39 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:20:49 - __main__:connect_handler:60 - ('127.0.0.1', 54396) - Успешное подключение к чату!
+20:22:00 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-3 (message_handler), started 21908)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-3 (message_handler), started 21908)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-3 (message_handler), started 21908)>
+    │    │        │    └ (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-3 (message_handler), started 21908)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-3 (message_handler), started 21908)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:22:00 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:22:04 - __main__:connect_handler:60 - ('127.0.0.1', 54449) - Успешное подключение к чату!
+20:22:14 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-4 (message_handler), started 25424)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-4 (message_handler), started 25424)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-4 (message_handler), started 25424)>
+    │    │        │    └ (<socket.socket fd=1012, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-4 (message_handler), started 25424)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-4 (message_handler), started 25424)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1012, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:22:14 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:22:33 - __main__:connect_handler:60 - ('127.0.0.1', 54461) - Успешное подключение к чату!
+20:23:57 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-5 (message_handler), started 3016)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-5 (message_handler), started 3016)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-5 (message_handler), started 3016)>
+    │    │        │    └ (<socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-5 (message_handler), started 3016)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-5 (message_handler), started 3016)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=804, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:23:57 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:24:15 - __main__:connect_handler:60 - ('127.0.0.1', 54516) - Успешное подключение к чату!
+20:24:54 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-6 (message_handler), started 17584)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-6 (message_handler), started 17584)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-6 (message_handler), started 17584)>
+    │    │        │    └ (<socket.socket fd=940, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-6 (message_handler), started 17584)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-6 (message_handler), started 17584)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=940, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:24:54 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:25:10 - __main__:connect_handler:60 - ('127.0.0.1', 54554) - Успешное подключение к чату!
+20:26:10 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-7 (message_handler), started 22280)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-7 (message_handler), started 22280)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-7 (message_handler), started 22280)>
+    │    │        │    └ (<socket.socket fd=856, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-7 (message_handler), started 22280)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-7 (message_handler), started 22280)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=856, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:26:10 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:26:17 - __main__:connect_handler:60 - ('127.0.0.1', 54610) - Успешное подключение к чату!
+20:27:26 - __main__:connect_handler:60 - ('127.0.0.1', 54653) - Успешное подключение к чату!
+20:29:39 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-8 (message_handler), started 4120)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-8 (message_handler), started 4120)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-8 (message_handler), started 4120)>
+    │    │        │    └ (<socket.socket fd=1016, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-8 (message_handler), started 4120)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-8 (message_handler), started 4120)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1016, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:29:39 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:29:41 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-9 (message_handler), started 4136)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-9 (message_handler), started 4136)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-9 (message_handler), started 4136)>
+    │    │        │    └ (<socket.socket fd=876, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-9 (message_handler), started 4136)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-9 (message_handler), started 4136)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=876, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:29:41 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:29:48 - __main__:connect_handler:60 - ('127.0.0.1', 54765) - Успешное подключение к чату!
+20:30:50 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-10 (message_handler), started 24772)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-10 (message_handler), started 24772)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-10 (message_handler), started 24772)>
+    │    │        │    └ (<socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-10 (message_handler), started 24772)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-10 (message_handler), started 24772)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=832, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:30:50 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:30:54 - __main__:connect_handler:60 - ('127.0.0.1', 54837) - Успешное подключение к чату!
+20:31:39 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-11 (message_handler), started 10556)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-11 (message_handler), started 10556)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-11 (message_handler), started 10556)>
+    │    │        │    └ (<socket.socket fd=844, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-11 (message_handler), started 10556)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-11 (message_handler), started 10556)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=844, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:31:39 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:31:45 - __main__:connect_handler:60 - ('127.0.0.1', 54860) - Успешное подключение к чату!
+20:35:42 - __main__:connect_handler:60 - ('127.0.0.1', 54984) - Успешное подключение к чату!
+20:39:45 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-12 (message_handler), started 16856)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-12 (message_handler), started 16856)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-12 (message_handler), started 16856)>
+    │    │        │    └ (<socket.socket fd=796, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-12 (message_handler), started 16856)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-12 (message_handler), started 16856)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=796, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:39:45 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:39:46 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-13 (message_handler), started 3100)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-13 (message_handler), started 3100)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-13 (message_handler), started 3100)>
+    │    │        │    └ (<socket.socket fd=864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-13 (message_handler), started 3100)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-13 (message_handler), started 3100)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:39:46 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:39:52 - __main__:connect_handler:60 - ('127.0.0.1', 55146) - Успешное подключение к чату!
+20:40:00 - __main__:connect_handler:60 - ('127.0.0.1', 55161) - Успешное подключение к чату!
+20:41:53 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-14 (message_handler), started 24184)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-14 (message_handler), started 24184)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-14 (message_handler), started 24184)>
+    │    │        │    └ (<socket.socket fd=904, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-14 (message_handler), started 24184)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-14 (message_handler), started 24184)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=904, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:41:53 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:41:54 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-15 (message_handler), started 15876)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-15 (message_handler), started 15876)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-15 (message_handler), started 15876)>
+    │    │        │    └ (<socket.socket fd=836, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-15 (message_handler), started 15876)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-15 (message_handler), started 15876)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=836, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:41:54 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:43:57 - __main__:connect_handler:60 - ('127.0.0.1', 55306) - Успешное подключение к чату!
+20:44:03 - __main__:connect_handler:60 - ('127.0.0.1', 55321) - Успешное подключение к чату!
+20:45:20 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-17 (message_handler), started 13684)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-17 (message_handler), started 13684)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-17 (message_handler), started 13684)>
+    │    │        │    └ (<socket.socket fd=920, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-17 (message_handler), started 13684)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-17 (message_handler), started 13684)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=920, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:45:20 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:45:21 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-16 (message_handler), started 13148)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-16 (message_handler), started 13148)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-16 (message_handler), started 13148)>
+    │    │        │    └ (<socket.socket fd=912, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-16 (message_handler), started 13148)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-16 (message_handler), started 13148)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=912, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:45:21 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:45:35 - __main__:connect_handler:60 - ('127.0.0.1', 55380) - Успешное подключение к чату!
+20:45:54 - __main__:connect_handler:60 - ('127.0.0.1', 55389) - Успешное подключение к чату!
+20:46:32 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-19 (message_handler), started 25380)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-19 (message_handler), started 25380)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-19 (message_handler), started 25380)>
+    │    │        │    └ (<socket.socket fd=816, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-19 (message_handler), started 25380)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-19 (message_handler), started 25380)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=816, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:46:32 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:46:34 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-18 (message_handler), started 10956)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-18 (message_handler), started 10956)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-18 (message_handler), started 10956)>
+    │    │        │    └ (<socket.socket fd=896, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+    │    │        └ <Thread(Thread-18 (message_handler), started 10956)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-18 (message_handler), started 10956)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=896, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=(...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:46:34 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:46:43 - __main__:connect_handler:60 - ('127.0.0.1', 55429) - Успешное подключение к чату!
+20:46:45 - __main__:connect_handler:60 - ('127.0.0.1', 55430) - Успешное подключение к чату!
+20:48:27 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-21 (message_handler), started 2836)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-21 (message_handler), started 2836)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-21 (message_handler), started 2836)>
+    │    │        │    └ (<socket.socket fd=1080, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-21 (message_handler), started 2836)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-21 (message_handler), started 2836)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1080, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:48:27 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:48:28 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-20 (message_handler), started 22128)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-20 (message_handler), started 22128)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-20 (message_handler), started 22128)>
+    │    │        │    └ (<socket.socket fd=1056, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-20 (message_handler), started 22128)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-20 (message_handler), started 22128)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1056, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:48:28 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:48:35 - __main__:connect_handler:60 - ('127.0.0.1', 55493) - Успешное подключение к чату!
+20:48:40 - __main__:connect_handler:60 - ('127.0.0.1', 55498) - Успешное подключение к чату!
+20:49:45 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-23 (message_handler), started 11904)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-23 (message_handler), started 11904)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-23 (message_handler), started 11904)>
+    │    │        │    └ (<socket.socket fd=1064, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-23 (message_handler), started 11904)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-23 (message_handler), started 11904)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1064, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:49:45 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:49:46 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-22 (message_handler), started 19344)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-22 (message_handler), started 19344)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-22 (message_handler), started 19344)>
+    │    │        │    └ (<socket.socket fd=1036, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-22 (message_handler), started 19344)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-22 (message_handler), started 19344)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1036, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+20:49:46 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+20:52:26 - __main__:connect_handler:60 - ('127.0.0.1', 55654) - Успешное подключение к чату!
+20:52:28 - __main__:connect_handler:60 - ('127.0.0.1', 55656) - Успешное подключение к чату!
+21:15:04 - __main__:connect_handler:60 - ('127.0.0.1', 56881) - Успешное подключение к чату!
+21:15:15 - __main__:connect_handler:60 - ('127.0.0.1', 56891) - Успешное подключение к чату!
+21:15:47 - __main__:connect_handler:60 - ('127.0.0.1', 56924) - Успешное подключение к чату!
+21:15:54 - __main__:connect_handler:60 - ('127.0.0.1', 56925) - Успешное подключение к чату!
+21:44:00 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-29 (message_handler), started 22340)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-29 (message_handler), started 22340)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-29 (message_handler), started 22340)>
+    │    │        │    └ (<socket.socket fd=1152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-29 (message_handler), started 22340)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-29 (message_handler), started 22340)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+21:44:00 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки
+21:44:01 - __main__:message_handler:81 - message_handler error:
+Traceback (most recent call last):
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001E592CC0790>
+    └ <Thread(Thread-28 (message_handler), started 3104)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001E592CC04C0>
+    └ <Thread(Thread-28 (message_handler), started 3104)>
+
+  File "C:\Users\patri\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-28 (message_handler), started 3104)>
+    │    │        │    └ (<socket.socket fd=1032, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr...
+    │    │        └ <Thread(Thread-28 (message_handler), started 3104)>
+    │    └ <bound method Server.message_handler of <__main__.Server object at 0x000001E59699E7D0>>
+    └ <Thread(Thread-28 (message_handler), started 3104)>
+
+> File "C:\Users\patri\OneDrive\Рабочий стол\Messenger-main\server\server.py", line 77, in message_handler
+    message = client_socket.recv(7168)
+              │             └ <method 'recv' of '_socket.socket' objects>
+              └ <socket.socket fd=1032, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5555), raddr=...
+
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+21:44:01 - __main__:message_handler:83 - Неизвестный клиент удален с сервера из-за ошибки

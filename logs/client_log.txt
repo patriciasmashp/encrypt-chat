@@ -1,0 +1,173 @@
+19:49:45 - methods.ConnectThreadMonitor:run:21 - Запущен потоковый обработчик
+19:49:45 - methods.ConnectThreadMonitor:run:34 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+19:49:45 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:07:14 - methods.ConnectThreadMonitor:run:21 - Запущен потоковый обработчик
+20:07:14 - methods.ConnectThreadMonitor:run:34 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:07:14 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:13:25 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:13:25 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:13:25 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:13:43 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:13:43 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:13:43 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:13:43 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'admin2 - Вступил в чат']
+20:13:43 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'admin2 - Вступил в чат']
+20:15:37 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:15:37 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:15:37 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:17:09 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:17:09 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:17:09 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:18:07 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:18:07 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:18:07 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:18:38 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:18:38 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:18:38 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'9Rk861Gx0uugkDs68Qw9JWQk0KGVzhm48l1AWZZx5NE=']
+20:20:06 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:20:06 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:20:06 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:20:49 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:20:49 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:20:49 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:22:04 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:22:04 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:22:04 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:22:33 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:22:33 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:22:33 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:24:15 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:24:15 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:24:15 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:25:10 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:25:10 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:25:10 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:26:17 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:26:17 - methods.ConnectThreadMonitor:run:41 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:26:17 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:27:26 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:27:26 - methods.ConnectThreadMonitor:run:41 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:27:26 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:27:26 - methods.ConnectThreadMonitor:run:49 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd - Вступил в чат']
+20:27:26 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd - Вступил в чат']
+20:27:29 - methods.ConnectThreadMonitor:run:56 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd', None, b'dfsdfsdf']
+20:27:51 - methods.ConnectThreadMonitor:run:56 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'admin2', None, b'm,m']
+20:29:48 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:29:48 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:29:48 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:30:54 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:30:54 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:30:54 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:31:45 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:31:45 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:31:45 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:35:42 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:35:42 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:35:42 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:35:42 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:35:42 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:35:59 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH-xf1uoRELWJ2NkTnw7zpKc_yf7bMYqN0B0xC6ME6r1Bd3EfmSk2pdi7wSDcYTRbt5AMaSgfkEBFrm2_uQLBIMXclg==']
+20:35:59 - __main__:signal_handler:231 - ['ENCRYPT_MESSAGE', 'adsasd2', None, '14.2536']
+20:39:52 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:39:52 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:39:52 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:40:00 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:40:00 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:40:00 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:40:00 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:40:00 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:40:08 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH-1Yt4q2nNeq3CSGbGr7FNWo0KO7tZFr9iJdbvRM8nKPIfobQ2sHdJpHHWmoRC7ICww-sLBfidcdTWWsikfmhQiKbg==']
+20:40:08 - __main__:signal_handler:231 - ['ENCRYPT_MESSAGE', 'adsasd2', None, '123456']
+20:43:57 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:43:57 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:43:57 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:43:59 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: фывфыв
+20:44:03 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:44:03 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:44:03 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:44:03 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:44:03 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:44:06 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: фыв
+20:44:06 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH-5GjU5YlX_8vLKl7cmzaJC9GPfHZxM7vTReRmH3VJoDaTgf74MjtHxg1uLi9g9yOlHjV8k5O7BsyYSCw11k26lt6Q==']
+20:44:06 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: в
+20:44:22 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: 14.2536
+20:44:22 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH-5WwWb7Je6UdYYn4ZGAo7GipUjJtcscFfjnLczlhv9-JTfYlFJYH7f74YtMYEpwDfZUA9JoSdlNJzg-d_BWqNd6Gg==']
+20:44:22 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: 6
+20:45:35 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:45:35 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:45:35 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:45:41 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: 14.2536
+20:45:54 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:45:54 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:45:54 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:45:54 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:45:54 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:46:04 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: 14.2536
+20:46:04 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH-68u5HXHAXvGbGEsUrSXJSokkJF2wju7g6kWn5nU81qOIM8_o6VMZrjq0BUYzky8U-e4ODCHXTQKLZ5A4Y-GxCXdg==']
+20:46:04 - crypto:get_decrypt:57 - 123456
+20:46:04 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: 6
+20:46:43 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:46:43 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:46:43 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:46:44 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:46:45 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:46:45 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:46:45 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:46:45 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:46:49 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: 12.231456
+20:46:49 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH-7ppWTI0k1s5PPOWIGscae3crWH-Pu4kPlSzQV4-4TZ9_0jlq9R3ADXm14b0Ul6v2VfNrFR4AgglS8JD9Y_RiOzag==']
+20:46:49 - crypto:decrypt:50 - 12.231456
+20:46:49 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: 6
+20:48:35 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:48:35 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:48:35 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:48:40 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:48:40 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:48:40 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:48:40 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:48:40 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:48:45 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: 14.2536
+20:48:45 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH-9dy-z3W0o-PmncFpGF3k88J95FEgBk1WFUh4WAbsWRj5ljQA4hZiL9GAGktDt0Aylo-5IW6Zo_IKLv7ZESDi_6gA==']
+20:48:45 - crypto:decrypt:50 - 14.2536
+20:48:45 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: 6
+20:52:26 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:52:26 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:52:26 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:52:27 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+20:52:28 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:52:28 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+20:52:28 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:52:28 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+20:52:34 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: 12.2314
+20:52:34 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'adsasd2', None, b'gAAAAABmH_BCWN5PFLkU4_rU0pfrZM1p8oy_vMXtHkuIb1MA7txOulpXUVkF9_EoauNm0rbnpGQfhwRXP6UnSvG8UIOQvFMVmg==']
+20:52:35 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: 12.134
+21:07:41 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Покинул чат']
+21:07:41 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Покинул чат']
+21:15:04 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+21:15:04 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:04 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:04 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+21:15:04 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+21:15:13 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Покинул чат']
+21:15:13 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Покинул чат']
+21:15:15 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+21:15:15 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:15 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:15 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+21:15:15 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Вступил в чат']
+21:15:21 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'adsasd2 - Покинул чат']
+21:15:21 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'adsasd2 - Покинул чат']
+21:15:47 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+21:15:47 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:47 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:54 - methods.ConnectThreadMonitor:run:27 - Запущен потоковый обработчик
+21:15:54 - methods.ConnectThreadMonitor:run:40 - SERVER_OK: ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:54 - __main__:signal_handler:189 - ['SERVER_OK', 'Успешное подключение к чату!', b'rCOzPTSeSyLX-czIyzmsJJThvuZtQ3jfCxJgK5MOPGw=']
+21:15:54 - methods.ConnectThreadMonitor:run:48 - USERS_NOTIFY: ['USERS_NOTIFY', 'User2 - Вступил в чат']
+21:15:54 - __main__:signal_handler:201 - ['USERS_NOTIFY', 'User2 - Вступил в чат']
+21:16:14 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: Привет
+21:16:14 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'User', None, b'gAAAAABmH_XOmTs9FOTQocEkT-gCRapP0gRssIge4r4y35qJGyCfbGSCOq6xBctn-gkPIR4OuZ1cdSEWHrbR_Pl3qjHixhUZbA==']
+21:16:14 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: Привет
+21:25:40 - methods.ConnectThreadMonitor:send_encrypt:69 - Кординаты зашифрованы: место нового ресторано здесь: 53.6984 60.610
+21:25:40 - methods.ConnectThreadMonitor:run:55 - ENCRYPT_MESSAGE: ['ENCRYPT_MESSAGE', 'User2', None, b'gAAAAABmH_gEEXX2FgjHzakT22I9nQkT1KW7aPCYR1QR1xiHa-bCUQDSt8RwBg17RVcVZDvUWeAYYHKGFFM5suazTrThNqIq0fvenFGM5XluDAjC3fqActapSUvcsEVPVo8EJ_-tjH4ODHhTMPDyVAIusNL-d36BMEQQkq3x4byDAPBmGEL16qg=']
+21:25:40 - methods.ConnectThreadMonitor:run:58 - Кординаты расифрованы: место нового ресторано здесь: 56.8394 60.610
